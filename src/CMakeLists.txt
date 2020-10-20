@@ -7,4 +7,5 @@ set(SOURCES ${SOURCES})
 
 add_executable(${BINARY}investigacion ${SOURCES})
 
-add_library(${BINARY}_lib STATIC ${SOURCES} ContenedorNumero.h EstrategiaAlgoritmica.h Numero.h)
+add_library(${BINARY}_lib STATIC ${SOURCES} VectorNumero.h EstrategiaAlgoritmica.h Numero.h Iterator/ Iterator/Curso.cpp Iterator/Curso.h Iterator/Iterador.h Iterator/Lista.h Iterator/Nodo.h Iterator/IteradorLista.h)
+
