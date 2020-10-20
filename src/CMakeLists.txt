@@ -7,4 +7,4 @@ set(SOURCES ${SOURCES})
 
 add_executable(${BINARY}investigacion ${SOURCES})
 
-add_library(${BINARY}_lib STATIC ${SOURCES})
+add_library(${BINARY}_lib STATIC ${SOURCES} ContenedorNumero.h EstrategiaAlgoritmica.h Numero.h)
