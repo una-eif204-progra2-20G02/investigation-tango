@@ -9,8 +9,6 @@ using namespace std;
 
 int main() {
 
-    // Trabajando con Patron Estrategia
-
     VectorNumero* vector = new VectorNumero();
     VectorNumero* vectorImpares = NULL;
     VectorNumero* vectorPrimos = NULL;
@@ -32,7 +30,7 @@ int main() {
     cout << "----------------------------------------------\n";
     cout << endl;
 
-    // Aplicando la estrategia de impares...
+    // Estrategia de impares...
     vectorImpares = vector->activaClasificacion(new EstrategiaEstablecerImpares());
     cout << "----------------------------------------------\n";
     cout << "El contenedor con solo impares queda como: \n";
@@ -41,7 +39,7 @@ int main() {
     cout << "----------------------------------------------\n";
     cout << endl;
 
-    // Aplicando la estrategia de primos...
+    // Estrategia de primos...
     vectorPrimos = vector->activaClasificacion(new EstrategiaEstablecerPrimos());
     cout << "----------------------------------------------\n";
     cout << "El contenedor con solo primos queda como: \n";
