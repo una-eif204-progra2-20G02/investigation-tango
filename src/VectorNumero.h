@@ -20,8 +20,6 @@ public:
     string toString();
     VectorNumero* activaClasificacion(EstrategiaAlgoritmica*);
 
-
-
 };
 
 VectorNumero::VectorNumero() {
