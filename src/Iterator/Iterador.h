@@ -6,6 +6,7 @@
 
 template <class T>
 class Iterador {
+
 public:
     virtual bool hayElementos() const = 0;
     virtual  void proximoElemento() = 0;

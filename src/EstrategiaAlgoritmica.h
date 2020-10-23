@@ -3,7 +3,6 @@
 //
 
 #pragma once
-// ---- Declaracion de la Jerarquia.
 
 #include "Numero.h"
 using namespace std;

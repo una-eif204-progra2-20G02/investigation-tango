@@ -24,7 +24,7 @@ int main() {
         cout << endl;
     }
     cout << "----------------------------------------------\n";
-    cout << "El contenedor original queda como: \n";
+    cout << "Vector original: \n";
     cout << endl;
     cout << vector->toString();
     cout << "----------------------------------------------\n";
@@ -33,7 +33,7 @@ int main() {
     // Estrategia de impares...
     vectorImpares = vector->activaClasificacion(new EstrategiaEstablecerImpares());
     cout << "----------------------------------------------\n";
-    cout << "El contenedor con solo impares queda como: \n";
+    cout << "Vector de imapares: \n";
     cout << endl;
     cout << vectorImpares->toString();
     cout << "----------------------------------------------\n";
@@ -42,7 +42,7 @@ int main() {
     // Estrategia de primos...
     vectorPrimos = vector->activaClasificacion(new EstrategiaEstablecerPrimos());
     cout << "----------------------------------------------\n";
-    cout << "El contenedor con solo primos queda como: \n";
+    cout << "Vector de primos: \n";
     cout << endl;
     cout << vectorPrimos->toString();
     cout << "----------------------------------------------\n";
